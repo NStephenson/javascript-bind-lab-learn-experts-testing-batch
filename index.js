@@ -15,3 +15,5 @@ function censor(censoredWord, str){
 const violenceCensor = censor.bind(null, "violence");
 
 const drugsCensor = censor.bind(null, "drugs");
+
+"tst"
