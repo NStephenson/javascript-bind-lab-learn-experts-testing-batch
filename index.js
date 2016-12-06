@@ -9,9 +9,9 @@ const digitalClock = {
 
 function censor(censoredWord, str){
   var exp = new RegExp(censoredWord, "g")
-  return str.replace(exp, "BLEEP")
+  return str.replace(exp, "BLEEP");
 }
 
-const violenceCensor = censor.bind(null, "violence")
+const violenceCensor = censor.bind(null, "violence");
 
-const drugsCensor = censor.bind(null, "drugs")
+const drugsCensor = censor.bind(null, "drugs");
